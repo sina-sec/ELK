@@ -21,9 +21,10 @@ You can deploy the Elastic Stack as a Cloud service supported on AWS, Google Clo
 #### 1-  Elastic     ![NicePng_meetup-logo-png_2660015](https://user-images.githubusercontent.com/62883434/212823434-1e596452-a842-4012-a059-5e175a34d09f.png)
 #### 2-  Logstash    ![logstash](https://user-images.githubusercontent.com/62883434/212836981-717b54e3-0a42-4d7c-8547-31487630f931.png)
 #### 3-  Kibana      ![kibana1](https://user-images.githubusercontent.com/62883434/213905014-b11d8093-7e10-44e9-a4ae-93bb33d46efd.png)
-#### 4-  Filebeat    ![filebeat](https://user-images.githubusercontent.com/62883434/213905020-0ee23daa-279f-4c3a-985e-c4939d8481d1.png)
+#### 4-  Filebeat    ![filebeat](https://user-images.githubusercontent.com/62883434/213906929-f38a792d-e4e0-445d-b36e-19ae56e4eeea.png) 
 #### 5-  Metricbeat  ![metriccc](https://user-images.githubusercontent.com/62883434/213905213-86a1d0fb-ba09-4f2e-a86a-c4e1dc54f70f.png)
-#### 6-  APM         ![afdsfs](https://user-images.githubusercontent.com/62883434/213905414-d43fd911-a095-4fbe-a871-7045e5e29638.png)
+#### 6-  APM         
+
 
 
 
