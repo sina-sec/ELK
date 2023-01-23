@@ -26,6 +26,9 @@ You can deploy the Elastic Stack as a Cloud service supported on AWS, Google Clo
 #### 6-  APM         ![apm (2)](https://user-images.githubusercontent.com/62883434/213907084-c43f4e2b-3a21-4067-971a-bdaa7fc53d73.png)
 
 
+## Attention  
+#### Additional information about the settings of each project is given in the Readme section of that project
+In all available files, it is necessary to customize the settings for proper operation. The necessary guidance for making these settings is provided in the Readme section.
 
 
 
