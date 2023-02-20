@@ -43,6 +43,14 @@ See [supported configurations][] for more details.
 
 * Install it: `helm install elasticsearch ./helm-charts/elasticsearch --set imageTag=8.5.1`
 
+### For use VALUES in this project you should change some parameters, for example 
+```
+secret:
+  enabled: true
+  password: "YOUR PASSWORD" # generated randomly if not defined
+```
+Change YOUR PASSWORD and use your password 
+##### please review and edit the Values again  
 
 
 
