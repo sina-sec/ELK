@@ -13,3 +13,28 @@ Elasticsearch lets you perform and combine many types of searches — structured
 
 ### ![icon-scale-32-color](https://user-images.githubusercontent.com/62883434/220036179-1c97b823-0810-48bf-b6f1-ab99d91f5cec.svg)  Analyze at scale
 It's one thing to find the 10 best documents to match your query. But how do you make sense of, say, a billion log lines? Elasticsearch aggregations let you zoom out to explore trends and patterns in your data.
+
+## Requirements
+
+* Minimum cluster requirements include the following to run this chart with
+default settings. All of these settings are configurable.
+  * Three Kubernetes nodes to respect the default "hard" affinity settings
+  * 1GB of RAM for the JVM heap
+
+See [supported configurations][] for more details.
+
+
+## Installing
+
+### Install a released version using the Helm repository
+
+* Add the Elastic Helm charts repo:
+`helm repo add elastic https://helm.elastic.co`
+
+* Install it: `helm install elasticsearch elastic/elasticsearch`
+
+### Install a development version using the main branch
+
+* Clone the git repo: `git clone git@github.com:elastic/helm-charts.git`
+
+* Install it: `helm install elasticsearch ./helm-charts/elasticsearch --set imageTag=8.5.1`
