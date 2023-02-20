@@ -31,7 +31,11 @@ See [supported configurations][] for more details.
 * Add the Elastic Helm charts repo:
 `helm repo add elastic https://helm.elastic.co`
 
-* Install it: `helm install elasticsearch elastic/elasticsearch`
+* Install it: `helm install elasticsearch -f values.yaml elastic/elasticsearch -n NAMESPACE`
+
+### For create new NAMESPACE and replace to command [ -n NAMESPCE ]
+* ` kubectl create ns ELK `  
+*  Use your specific name for Namespace Instead of ELK
 
 ### Install a development version using the main branch
 
