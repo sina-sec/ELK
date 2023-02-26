@@ -37,11 +37,6 @@ See [supported configurations][] for more details.
 * ` kubectl create ns ELK `  
 *  Use your specific name for Namespace Instead of ELK
 
-### Install a development version using the main branch
-
-* Clone the git repo: `git clone git@github.com:elastic/helm-charts.git`
-
-* Install it: `helm install elasticsearch ./helm-charts/elasticsearch --set imageTag=8.5.1`
 
 ### For use VALUES in this project you should change some parameters, for example 
 ```
