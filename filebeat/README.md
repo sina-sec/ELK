@@ -57,7 +57,7 @@ This Helm chart is a lightweight way to configure and run our official
 
 ### Create a namespace
 * You must create a new namespace or use the namespace you created when creating elastic:
-`kubectl create ns elastic`
+`kubectl create ns ELK`
 
 ### Install a released version using the Helm repository
 
@@ -65,6 +65,8 @@ This Helm chart is a lightweight way to configure and run our official
 `helm repo add elastic https://helm.elastic.co`
 
 * Install it: `helm install filebeat -f values.yaml elastic/filebeat -n {YOUR NAMESPACE}`
+
+      `helm install filebeat -f values.yaml elastic/filebeat -n ELK`
 
 
 ### Install a development version using the main branch
