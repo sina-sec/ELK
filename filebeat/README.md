@@ -99,6 +99,28 @@ activate it by setting `hostNetworking: true` in [values.yaml][].
 * This repo includes several [examples][] of configurations that can be used
 as a reference. They are also used in the automated testing of this chart.
 
+#### You should change some config parameters on values for example:
+        providers:
+          - type: kubernetes
+            templates:
+              - condition:
+                  equals:
+                    kubernetes.namespace: {{YOUR-NAMESPACE}}
+                  contains:
+                    kubernetes.pod.name: {{"YOUR-POD-NAME"}}
+                 
+ 
+ #### Any where if you see {{YOUR-NAMESPACE}} or {{"YOUR-POD-NAME"}}    you should change. 
+ 
+ #### For example: 
+        providers:
+          - type: kubernetes
+            templates:
+              - condition:
+                  equals:
+                    kubernetes.namespace: KAFKA
+                  contains:
+                    kubernetes.pod.name: kafka
 
 ## Configuration
 
